@@ -168,10 +168,11 @@ export default function PrimaryHeaderBar() {
                         variant="h6"
                         noWrap
                         component="div"
-                        sx={{ display: { xs: "none", sm: "block" } }}
+                        sx={{ display: { xs: "block" } }}
                     >
                         Tudo Bem?
                     </Typography>
+                    {/*
                     <Search>
                         <SearchIconWrapper>
                             <SearchIcon />
@@ -182,6 +183,7 @@ export default function PrimaryHeaderBar() {
                             inputProps={{ "aria-label": "search" }}
                         />
                     </Search>
+                    */}
                     <Box sx={{ flexGrow: 1 }} />
                     <Box sx={{ display: { xs: "none", md: "flex" } }}>
                         <IconButton
